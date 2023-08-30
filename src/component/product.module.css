@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.cardImg {
+  width: 120px;
+  height: 150px;
+  margin: auto;
+}
+
+.productCon {
+  margin-bottom: 30px;
+}
+
+.cardCss {
+  width: 310px !important;
+  height: 70vh !important;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 6px;
+  padding-top: 75px;
+}
+.product {
+  font-family: Syne;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 108px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mainContainer {
+  display: flex;
+  width: 90%;
+}
+.desc {
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.title {
+  padding: 8px 0;
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imgCon {
+  position: relative;
+  height: 44vh;
+  display: flex;
+  align-items: center;
+  background-color: beige;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.price {
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .categories {
+    flex-direction: row;
+    font-family: Syne;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 0;
+    gap: 30px;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .product {
+    font-size: 40px;
+  }
+  .productCon {
+    margin-bottom: 0;
+  }
+  .cardCss{
+    width: 366px !importants;
+  }
+}

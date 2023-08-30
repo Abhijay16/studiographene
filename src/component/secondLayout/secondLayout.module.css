@@ -1,0 +1,210 @@
+.containerMain {
+  display: flex;
+  gap: 6px;
+  margin: 10px 50px;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.verticalLine {
+  border: 3px solid white;
+  margin: 10px 50px;
+  
+}
+
+.shopKartCss {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 275;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.txtCss {
+  display: flex;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.subnavContent {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnavContent a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnavContent a:hover {
+  background-color: #eee;
+  color: white;
+}
+
+.subnav:hover .subnavContent {
+  display: block;
+}
+
+.container {
+  display: flex;
+  gap: 150px;
+  margin: 10px 50px;
+}
+
+.horizontalLine {
+  border: 1px solid #626262;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.imgCss {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+}
+
+.orangeDiv {
+  position: relative;
+  background: #f07e15;
+  width: 993px;
+  height: 354.30108642578125px;
+  top: 267px;
+  right: 0;
+}
+
+.star {
+  position: absolute;
+  top: -260px;
+  right: 0;
+}
+.freshStyle {
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: -50px;
+  left: -209px;
+  z-index: 99;
+}
+.lookStyle {
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 188px;
+  left: -159px;
+  z-index: 99;
+}
+
+.txtStyle {
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 85px;
+  left: -20px;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 767px) {
+  .containerMain{
+    display: none;
+  }
+  .orangeDiv {
+    width: 100%;
+    top: 277px;
+  }
+  .imgCss {
+    position: inherit;
+    bottom: 200px;
+  }
+  .star {
+    top: -220px;
+  }
+  .freshStyle {
+    top: 0px;
+    left: 38px;
+    z-index: 99;
+    font-size: 80px;
+  }
+  .txtStyle{
+    left: 82px;
+    z-index: 99;
+    font-size: 80px;
+  }
+  .lookStyle{
+    left: 73px;
+    z-index: 99;
+    font-size: 80px;
+  }
+  .container{
+    margin: 10px 20px;
+  }
+  .verticalLine {
+    margin: 10px 20px;
+    
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+}

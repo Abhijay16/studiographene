@@ -1,0 +1,37 @@
+.firstHeaderContainer {
+  display: flex;
+  gap: 6px;
+  padding: 20px 50px;
+  color: #626262;
+  background: #1a1a1a;
+  align-items: center;
+}
+.imgCss{
+    width: 10px;
+    margin: 5px 5px;
+
+}
+.horizontalLine {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 767px) {
+  .firstHeaderContainer {
+    padding: 18px 20px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 0;
+  }
+  .freeContainer {
+    display: flex;
+  }
+  .imgCss{
+    width: 12px;
+    margin: 2px 6px;
+  }
+
+}
